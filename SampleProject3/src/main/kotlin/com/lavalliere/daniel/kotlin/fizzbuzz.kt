@@ -1,4 +1,4 @@
-package con.lavalliere.daniel.kotlin;
+package com.lavalliere.daniel.kotlin;
 
 fun main(args: Array<String>) {
     for(num in 1.rangeTo(105)) {
