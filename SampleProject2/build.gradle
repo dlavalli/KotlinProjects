@@ -8,6 +8,12 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    jcenter()
+}
+
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/myKotlin'
+    main.java.srcDirs += 'src/main/myJava'
 }
 
 dependencies {
@@ -17,6 +23,8 @@ dependencies {
 
     compile "org.jetbrains.kotlin:kotlin-reflect:1.5.0"
     testCompile "org.jetbrains.kotlin:kotlin-test:1.5.0"
+
+    compile 'org.funktionale:funktionale-all:1.2'
 }
 
 test {
