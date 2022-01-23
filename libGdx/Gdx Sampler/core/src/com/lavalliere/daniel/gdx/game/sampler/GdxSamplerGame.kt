@@ -5,6 +5,8 @@ import com.badlogic.gdx.graphics.Texture
 import com.badlogic.gdx.graphics.g2d.SpriteBatch
 import com.badlogic.gdx.utils.ScreenUtils
 
+// ie:  ApplicationAdapter is an abstract class that implements ApplicationListener interface
+//      without any implementations of the methods
 class GdxSamplerGame : ApplicationAdapter() {
     var batch: SpriteBatch? = null  // Some classes, like SpriteBatch Cannot be initialized/used
                                     // until the application starts booting (ie: when framework boots itself
